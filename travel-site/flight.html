@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Australian Vacation</title>
+    <link rel="shortcut icon" type="image/jpg" href="favicon.png" />
+    <link rel="stylesheet" href="pages/style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="favicon.png" alt="Australian vacation's logo" class="logo" />
+      <h1 class="heading-header">Australian Vacation</h1>
+      <!--Nav starts here-->
+      <div class="nav">
+        <ul>
+          <li><a href="flight.html" class="flight-nav">Flight</a></li>
+          <li><a href="pages/hotel.html">Hotel</a></li>
+          <li><a href="pages/contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <!--Flight starts here-->
+    <div class="body-flight">
+      <div class="background-img-flight">
+        <div class="container">
+          <h2 class="heading-flight">
+            Flight with who really cares about you, Flight with us!
+          </h2>
+          <!--Flight form starts here-->
+          <form class="flight-booking">
+            <!--Radio buttons from flight starts here-->
+            <div class="radio-button-flight">
+              <label class="radio-button">
+                <input type="radio" name="radio" checked />Round Trip
+              </label>
+              <label class="radio-button">
+                <input type="radio" name="radio" />One Way
+              </label>
+            </div>
+            <!--Radio buttons from flight finishes here-->
+            <!--Input buttons from flight starts here-->
+            <div class="flight-input">
+              <!--From input here-->
+              <input
+                type="text"
+                required
+                placeholder="Flying from"
+                class="flying-from-input"
+              />
+              <img src="icons/plane.png" alt="" class="icon-plane" />
+              <!--To input here-->
+              <input
+                type="text"
+                required
+                placeholder="Fly to"
+                class="flying-to-input"
+              />
+            </div>
+            <!--Input button flight finishes here-->
+            <br />
+            <br />
+            <br />
+            <!--depart and return date from flight starts here-->
+            <div class="depart-and-return-date">
+              <!--Depart date is here-->
+              <div class="depart-date">
+                <input type="date" required class="depart-date-input" />
+                <h4 class="heading-date">Choose a depart date</h4>
+              </div>
+
+              <!--Return date is here-->
+              <div class="return-date">
+                <h4 class="heading-return-date">Choose a return date</h4>
+                <input type="date" required class="return-date-input" />
+              </div>
+            </div>
+            <!--depart and return date from flight finish here-->
+            <!--Submit button is here-->
+            <!--type="submit"-->
+            <!--voltar pra dentro do button-->
+            <button
+              name="submit"
+              class="flight-search-button"
+              id="submit"
+              data-submit="...Sending"
+            >
+              Search flights
+            </button>
+            <!--Submit button finish here-->
+          </form>
+        </div>
+      </div>
+      <!--Container starts here-->
+      <div class="container">
+        <div class="container-wrapper">
+          <!--box-1 = Sydney-->
+          <div class="box-1">
+            <div class="box">
+              <div class="box-info">
+                <img src="images/sydney-image.jpg" alt="" class="city-image" />
+                <h4>Sydney</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus
+                  quod quam rerum illum!
+                </p>
+              </div>
+              <div class="footer-box">
+                <div class="qantas-icon">
+                  <a href="https://www.qantas.com/us/en.html"
+                    ><img src="icons/qantas.png" alt=""
+                  /></a>
+                </div>
+                <div class="book-button"><a>Book now!</a></div>
+              </div>
+            </div>
+          </div>
+          <!--box-2 = London-->
+          <div class="box-2">
+            <div class="box">
+              <div class="box-info">
+                <img src="images/london-image.jpg" alt="" class="city-image" />
+                <h4>London</h4>
+                <p>
+                  Quaerat quam, laborum ipsum minima quibusdam asperiores
+                  necessitatibus, in temporibus molestias ea eum sit fugiat id
+                  doloremque.
+                </p>
+              </div>
+              <div class="footer-box">
+                <div class="british-icon">
+                  <a
+                    href="https://www.britishairways.com/travel/home/public/en_us/"
+                    ><img src="icons/british.png" alt=""
+                  /></a>
+                </div>
+                <div class="book-button"><a>Book now!</a></div>
+              </div>
+            </div>
+          </div>
+
+          <!--box-3 = Paris-->
+          <div class="box-3">
+            <div class="box">
+              <div class="box-info">
+                <img src="images/paris-image.jpg" alt="" class="city-image" />
+                <h4>Paris</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Recusandae harum alias sint suscipit perferendis distinctio
+                  accusamus ab nam reiciendis.
+                </p>
+              </div>
+              <div class="footer-box">
+                <div class="air-france-icon">
+                  <a href="https://www.airfrance.com/indexCom_en.html"
+                    ><img src="icons/air-france.png" alt=""
+                  /></a>
+                </div>
+                <div class="book-button">
+                  <a class="booking">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--box-4 = New York-->
+          <div class="box-4">
+            <div class="box">
+              <div class="box-info">
+                <img
+                  src="images/new-york-image.jpg"
+                  alt=""
+                  class="city-image"
+                />
+                <h4>New York</h4>
+                <p>
+                  Et modi corporis voluptas, reiciendis repellendus aliquid
+                  autem perferendis magnam ab mollitia.
+                </p>
+              </div>
+              <div class="footer-box">
+                <div class="american-icon">
+                  <a
+                    href="https://www.americanairlines.com.au/intl/au/index.jsp"
+                    ><img src="icons/american.png" alt=""
+                  /></a>
+                </div>
+                <div class="book-button"><a>Book now!</a></div>
+              </div>
+            </div>
+          </div>
+          <!--box-5 = Rio de Janeiro-->
+          <div class="box-5">
+            <div class="box">
+              <div class="box-info">
+                <img
+                  src="images/rio-de-janeiro-image.jpg"
+                  alt=""
+                  class="city-image"
+                />
+                <h4>Rio de Janeiro</h4>
+                <p>
+                  Similique distinctio officiis nemo harum odio blanditiis,
+                  temporibus at praesentium reiciendis repellendus nulla veniam
+                  et cum cupiditate illo animi placeat quod nisi?
+                </p>
+              </div>
+              <div class="footer-box">
+                <div class="qatar-icon">
+                  <a href="https://www.qatarairways.com/en-au/homepage.html"
+                    ><img src="icons/qatar.png" alt=""
+                  /></a>
+                </div>
+                <div class="book-button"><a>Book now!</a></div>
+              </div>
+            </div>
+          </div>
+          <!--box-6 = Gold Coast-->
+          <div class="box-6">
+            <div class="box">
+              <div class="box-info">
+                <img
+                  src="images/gold-coast-image.jpg"
+                  alt=""
+                  class="city-image"
+                />
+                <h4>Gold Coast</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam
+                  asperiores repudiandae assumenda velit maiores recusandae,
+                  voluptatem mollitia.
+                </p>
+              </div>
+              <div class="footer-box">
+                <div class="air-new-icon">
+                  <a href="https://flightbookings.airnewzealand.com.au/"
+                    ><img src="icons/air-new-zealand.png" alt=""
+                  /></a>
+                </div>
+                <div class="book-button">
+                  <a class="booking">Book now!</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Container finishes here-->
+      </div>
+    </div>
+    <div class="footer">
+      <p class="copyright">&copy;Copyright Patrick Behenck 2021.</p>
+    </div>
+  </body>
+</html>

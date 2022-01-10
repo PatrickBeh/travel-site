@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Australian Vacation</title>
+    <link rel="shortcut icon" type="image/jpg" href="../favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="../favicon.png" alt="Australian vacation's logo" class="logo" />
+      <h1 class="heading-header">Australian Vacation</h1>
+      <div class="nav">
+        <ul>
+          <li><a href="../flight.html">Flight</a></li>
+          <li><a href="hotel.html" class="hotel-nav">Hotel</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="body-hotel">
+      <div class="background-img-hotel">
+        <h2 class="heading-hotel">Feel comfortable as in yor home!</h2>
+        <!--Hotel form starts here-->
+        <form class="hotel-booking">
+          <!--Input button from hotel-->
+          <input
+            type="text"
+            required
+            placeholder="Destination"
+            class="destination-input"
+          />
+
+          <!--Check-in and Check-out from hotel starts here-->
+          <div class="check-in-and-check-out">
+            <!--Depart date is here-->
+            <div class="check-in">
+              <h4 class="heading-check-in">Check-in</h4>
+              <input type="date" required class="check-in-input" />
+            </div>
+
+            <!--Return date is here-->
+            <div class="check-out">
+              <h4 class="heading-check-out">Check-out</h4>
+              <input type="date" required class="check-out-input" />
+            </div>
+          </div>
+          <!--Check-in and check-out from the hotel finishes here-->
+
+          <!--Tentar adicionar um input 'Guests' com botao para 
+            adicionar ou diminuir o numero de pessoas-->
+          <button
+            name="submit"
+            type="submit"
+            class="hotel-search-button"
+            data-submit="...Sending"
+          >
+            Search hotels
+          </button>
+        </form>
+      </div>
+
+      <div class="container">
+        <h2 class="heading-hotel-container">Are you looking for suggestion?</h2>
+        <div class="container-wrapper">
+          <div class="box-1 hotel-box">
+            <div class="hotel-box">
+              <div class="box-info">
+                <img
+                  src="../images/cairo-hotel.jpg"
+                  alt="An image of Cairo city"
+                />
+              </div>
+              <div class="footer-box">
+                <h2>Cairo</h2>
+
+                <a href="">
+                  <p>Egito</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="box-2 hotel-box">
+            <div class="hotel-box">
+              <div class="box-info">
+                <img src="../images/istambul-hotel.jpg" alt="" />
+              </div>
+              <div class="footer-box">
+                <h2>Istambul</h2>
+                <a href="">
+                  <p>Turkey</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="box-3 hotel-box">
+            <div class="hotel-box">
+              <div class="box-info">
+                <img src="../images/madrid-hotel.jpg" alt="" />
+              </div>
+              <div class="footer-box">
+                <h2>Madrid</h2>
+
+                <a href="">
+                  <p>Spain</p>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="box-4 hotel-box">
+            <div class="hotel-box">
+              <div class="box-info">
+                <img src="../images/melbourne-hotel.jpg" alt="" />
+              </div>
+              <div class="footer-box">
+                <h2>Melbourne</h2>
+
+                <a href="">
+                  <p>Australia</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="box-5 hotel-box">
+            <div class="hotel-box">
+              <div class="box-info">
+                <img src="../images/veneza-hotel.jpg" alt="" />
+              </div>
+              <div class="footer-box">
+                <h2>Veneza</h2>
+
+                <a href="">
+                  <p>Italy</p>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="box-6 hotel-box">
+            <div class="hotel-box">
+              <div class="box-info">
+                <img src="../images/toronto-hotel.jpg" alt="" />
+              </div>
+              <div class="footer-box">
+                <h2>Toronto</h2>
+
+                <a href="">
+                  <p>Canada</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p class="copyright">&copy;Copyright Patrick Behenck 2021.</p>
+    </div>
+  </body>
+</html>
